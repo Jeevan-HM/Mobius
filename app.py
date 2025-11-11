@@ -34,6 +34,31 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/pricing")
+def pricing():
+    return render_template("pricing.html")
+
+
+@app.route("/careers")
+def careers():
+    return render_template("careers.html")
+
+
+@app.route("/manufacturing")
+def manufacturing():
+    return render_template("manufacturing.html")
+
+
+@app.route("/healthcare")
+def healthcare():
+    return render_template("healthcare.html")
+
+
+@app.route("/logistics")
+def logistics():
+    return render_template("logistics.html")
+
+
 @app.route("/health")
 def health():
     """Health check endpoint for monitoring."""
